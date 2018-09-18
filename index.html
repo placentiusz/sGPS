@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+
+    <title>Simple GPS</title>
+
+    <style>
+      body {
+        border: 1px solid black;
+      }
+    </style>
+
+    <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions),
+         so we use a script file. -->
+    <script src="app.js" defer></script>
+
+  </head>
+
+  <body>
+    <!-- This code is in the public domain. Enjoy! -->
+    <h1>GPSv2:</h1>
+    <div id="pos">Pos</div>
+    <div id="speed">Speed</div>
+    <div id="message">Message</div>
+    <div id="distance">Distance</div>
+  </body>
+
+</html>
