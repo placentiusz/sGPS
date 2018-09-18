@@ -70,7 +70,7 @@ window.addEventListener("load", function() {
   console.log("My GPS  load wakelock");
 });
 var options = {
-  enableHighAccuracy: true,
+  enableHighAccuracy: false ,
   timeout: 5000,
   maximumAge: 0
 };
